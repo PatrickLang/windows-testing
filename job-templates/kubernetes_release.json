@@ -3,11 +3,7 @@
   "properties": {
     "orchestratorProfile": {
       "orchestratorType": "Kubernetes",
-      "orchestratorRelease": "1.13",
-      "kubernetesConfig": {
-        "azureCNIURLLinux": "https://acs-mirror.azureedge.net/cni/azure-vnet-cni-linux-amd64-v1.0.16.tgz",
-        "azureCNIURLWindows": "https://acs-mirror.azureedge.net/cni/azure-vnet-cni-windows-amd64-v1.0.16.tgz"
-      }
+      "orchestratorRelease": "1.13"
     },
     "masterProfile": {
       "count": 1,
