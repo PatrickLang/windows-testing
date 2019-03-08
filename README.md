@@ -137,3 +137,9 @@ kubetest --test=true \
 ## Building Test Images
 
 [images/](images/README.md) - has all of the container images used in e2e test passes and the scripts to build them. They are replacement Windows containers for those in [kubernetes/test/images](https://github.com/kubernetes/kubernetes/tree/master/test/images)
+
+
+## Collecting troubleshooting logs
+
+[scripts/loggather.ps1](scripts/loggather.ps1) - This gathers the kubelet, Docker, and Windows networking logs from the local Windows machine. Usage: `loggather.ps1`
+[scripts/loggather.sh](scripts/loggather.sh) - This gathers the kubelet, Docker, and Windows networking logs from a remote Windows machine with SSH enabled. Usage `loggather.sh adminuser@master adminuser@windowsnode`
